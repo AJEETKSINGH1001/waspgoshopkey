@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="demoqa">
+    <test name="This is test suite">
+        <classes>
+          
+            <!-- <class name="com.waspshopkey.framework.tests.EventRegistrationTest"/> -->
+            <class name="com.waspshopkey.framework.tests.WebsiteVerificationTest"/>
+            <class name="com.waspshopkey.framework.tests.BrokenLinksAndImagesTest"/>
+            <class name="com.waspshopkey.framework.tests.Label_campaign_creation"/>
+          <!--  <class name="com.demoqa.tests.MyTestClass2"/>-->
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+</suite>
